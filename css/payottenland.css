@@ -1,0 +1,53 @@
+body {margin: 0;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'lato', sans-serif;
+
+}
+header {
+    background-color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+header h1 {
+    color: forestgreen;
+    font-size: 50px;
+}
+h1, h2 {font-family: 'dancing script', cursive
+}
+h2 { color: firebrick;
+    font-size: 30px;
+    margin: 40px 0 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px
+}
+main img {
+    max-width: 100%;
+}
+
+a { 
+    color: firebrick;
+}
+a:hover{ 
+    color: whitesmoke;
+    background-color:forestgreen;
+}
+footer{
+    text-align: center;
+    color:goldenrod;
+    background-color: forestgreen;
+    padding: 50px;
+}
+footer p{ 
+    margin: 0
+}
+p.caption{ 
+    color: #999999;
+    font-style: italic;
+    margin-top: 0;
+}

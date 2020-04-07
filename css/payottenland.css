@@ -28,8 +28,12 @@ main {
 }
 main img {
     max-width: 100%;
+        object-fit: none;
+        width: 700px;
+        height: 250px;
+        object-position: 50% 70%;
+        
 }
-
 a { 
     color: firebrick;
 }

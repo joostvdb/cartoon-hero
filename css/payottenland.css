@@ -66,3 +66,18 @@ p.caption{
     font-style: italic;
     margin-top: 0;
 }
+
+/* Facebook gallery section */
+section#gallery {
+    padding: 5% 0;
+    text-align: center;
+}
+ 
+section#gallery a {
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    margin: 1%;
+    display: inline-block;
+}

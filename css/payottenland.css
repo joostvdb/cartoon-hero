@@ -20,6 +20,16 @@ h2 { color: firebrick;
     font-size: 30px;
     margin: 40px 0 10px;
 }
+.header2 {padding: 10px;}
+.header2 li {display: inline-block;
+    border: 2px solid lightsteelblue ;
+    padding: 10px;
+}
+.header2,nav {display: inline-block;}
+
+.header2 ul {background: snow;
+    padding: 10px;
+}
 
 main {
     max-width: 800px;
@@ -36,6 +46,7 @@ main img {
 }
 a { 
     color: firebrick;
+    text-decoration: none;
 }
 a:hover{ 
     color: whitesmoke;

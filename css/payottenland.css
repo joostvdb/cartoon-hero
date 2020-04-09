@@ -3,7 +3,7 @@ body {
     font-size: 20px;
     line-height: 25px;
     font-family: 'lato', sans-serif;
-    max-width: 900px;
+    max-width: 100%;
     
     
 
@@ -26,13 +26,14 @@ h2 { color: firebrick;
 }
 .header2 {
     padding-top: 20px;
-    width: 900px;
-    text-align: left;
+    max-width: 100%;
+    text-align: center;
     margin: 20px;
 
 
 }
-.header2 li {display: inline-block;
+.header2 li {
+    display: inline-block;
     box-sizing: border-box;
     border: 2px solid lightsteelblue ;
     padding: 10px;
@@ -46,7 +47,7 @@ h2 { color: firebrick;
 }
 
 main {
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px
 }

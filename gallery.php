@@ -11,9 +11,10 @@
 
 
 <section id="gallery">
-<?php
-    $access_token="EAADJpDdCnqoBAJiJCXG4jIoQrpKQX2gskJd608RkwzPJYhK9ObEkHFGaKkTd51xD2zk8ZCVqiBm1EBbiNZC0FpZAG82UuMVE0sKgBO7mzic6bLHoahp336wQAgQAGHubPSPjHnGR6ONZBMyzng6oxSDZBro3wVm3VPlMrqZCE4gAZDZD";
-    $json_link = "https://graph.facebook.com/v2.3//photos?fields=images,name,link&limit=9&access_token={$access_token}";
+<?php 
+
+$access_token="EAADJpDdCnqoBAJiJCXG4jIoQrpKQX2gskJd608RkwzPJYhK9ObEkHFGaKkTd51xD2zk8ZCVqiBm1EBbiNZC0FpZAG82UuMVE0sKgBO7mzic6bLHoahp336wQAgQAGHubPSPjHnGR6ONZBMyzng6oxSDZBro3wVm3VPlMrqZCE4gAZDZD";
+    $json_link = "https://graph.facebook.com/v2.3/161360967364906/photos?fields=images,name,link&limit=9&access_token={$access_token}";
     $json = file_get_contents($json_link);
     $result = json_decode($json);
     $j = 0;

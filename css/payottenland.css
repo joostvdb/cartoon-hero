@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     font-size: 20px;
     line-height: 25px;
     font-family: 'lato', sans-serif;
@@ -78,6 +78,7 @@ footer{
     background-color: forestgreen;
     padding: 50px;
     margin: 0;
+    max-width: 100%;
     
 }
 footer p{ 

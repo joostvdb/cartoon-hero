@@ -3,7 +3,7 @@ body {
     font-size: 20px;
     line-height: 25px;
     font-family: 'lato', sans-serif;
-    max-width: 100%;
+    max-width: 1000px;
     
     
 
@@ -47,17 +47,21 @@ h2 { color: firebrick;
 }
 
 main {
-    max-width: 100%;
+    max-width: 1000;
     margin: 0 auto;
-    padding: 20px
+    padding: 20px;
+    vertical-align: center;
+    
 }
 main img {
     max-width: 100%;
         object-fit: none;
         width: 700px;
+        margin: 0 130px;
         height: 250px;
         object-position: 50% 70%;
     text-align: center;
+
         
 }
 a { 
@@ -82,7 +86,12 @@ footer p{
 p.caption{ 
     color: #999999;
     font-style: italic;
-    margin-top: 0;
+    margin: 0 130px;
+}
+
+.sponsors {
+    margin-top: 150px;
+
 }
 
 /* Facebook gallery section */
